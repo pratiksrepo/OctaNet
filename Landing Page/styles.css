@@ -1,0 +1,143 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+   
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+ 
+    
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1618232731737-e1cd67c80bc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fG1hcmlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60); /* Replace with your image */
+    background-size: cover;
+    color: #d60c0c;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Add styling for other sections, feature cards, about content, and contact form */
+/* ... Previous CSS code ... */
+
+/* Styling for Features Section */
+#features {
+    background-color: #f8f8f8;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about-image{
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 10vh;
+}
+
+/* Styling for About Section */
+#about {
+    background-color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#about p{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #fff;
+    color: #ff9900;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ... Rest of the CSS code ... */
